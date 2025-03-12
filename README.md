@@ -5,8 +5,8 @@
 
 - 🎯 My skills include: Python, Tensorflow, Scikit-learn, JavaScript, Node/Express, Java, OOP
 
-- 🪛 I'm currently working on a guitar "rhythm game" that leverages pre-trained ML models to
-help users learn to play their favourite songs
+- 🪛 I'm currently working on an electric guitar "rhythm game" that leverages pre-trained ML models for
+guitar separation and pitch detection to help users learn to play their favourite songs
 
 # Projects
 
@@ -19,10 +19,11 @@ and audio libraries to provide a gamified environment for electric guitarists to
 
 ### Features and Implementation
 
-A practical and minimalist GUI with CSS styling was built in PyQt5.
+A practical and minimalist GUI with aesthetic CSS styling was built using PyQt5.
 
-Guitar separation of a song is done through use of the HT Demucs 6S model, while Spotify's Basic Pitch
-library is implemented to predict note events in both the user's guitar input and the song's guitar track.
+Guitar separation of a song is done through use of the 6-stem HT Demucs MSS model, while Spotify's Basic
+Pitch library is implemented to predict note events in both the user's guitar input and the song's guitar
+track.
 
 A scoring algorithm compares predicted pitch information between the user and song's guitar to determine
 a performance score and note accuracy rate that is displayed in real-time.
@@ -40,8 +41,9 @@ and a playthrough mode that saves a user's final score to be displayed in the so
 
 ### Overview
 
-A fullstack web development project to produce a prototype fitness-based social media platform on
-which users can share their Strava activities, like, comment, and more.
+A web development project that showcased fullstack development skills, producing a prototype for a 
+fitness-themed social media platform with Strava API integration and functionality for following users,
+posting activities, liking, commenting, and more.
 
 ### Technologies Used
 
@@ -72,18 +74,6 @@ bar, and a webcam input integrated visualisation through use of p5's FFT functio
 
 ---
 
-## [🇭 Hangman Game](https://github.com/SpikeElliot/Java-Hangman-Game)
-
-### Overview 
-
-An endless hangman game designed as a small test application to demonstrate proficiency with Java Swing. 
-
-### Technologies Used
-
-**Java**
-
----
-
 ## [🧑‍🏫 Bookit: Room Booking Application](https://github.com/jbrun001/roombooking)
 
 ### Overview
@@ -93,6 +83,19 @@ A collaborative group project to develop a responsive room booking web applicati
 ### Technologies Used
 
 **JavaScript, HTML, CSS, Node/Express, MySQL**
+
+---
+
+## [🇭 Hangman Game](https://github.com/SpikeElliot/Java-Hangman-Game)
+
+### Overview 
+
+An endless hangman game with a simple score system designed as a small test application to demonstrate 
+proficiency with Java Swing. 
+
+### Technologies Used
+
+**Java**
 
 <!--
 
