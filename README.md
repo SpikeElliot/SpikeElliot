@@ -17,7 +17,7 @@ guitar separation and pitch detection to help users learn to play their favourit
 A standalone Python application, this software implements open-source pre-trained Machine Learning models
 and audio libraries to provide a gamified environment for electric guitarists to learn to play new songs.
 
-### Features and Implementation
+### Features
 
 A practical and minimalist GUI with aesthetic CSS styling was built using PyQt5.
 
@@ -33,7 +33,7 @@ and a playthrough mode that saves a user's final score to be displayed in the so
 
 ### Technologies Used
 
-**Python, PyQt5, NumPy, Pandas, Librosa**
+**Python • PyQt5 • NumPy • Pandas • Librosa**
 
 ---
 
@@ -47,7 +47,7 @@ posting activities, liking, commenting, and more.
 
 ### Technologies Used
 
-**JavaScript, HTML, CSS, Node/Express, MySQL**
+**JavaScript • Node/Express • MySQL • HTML • CSS**
 
 ---
 
@@ -70,7 +70,7 @@ bar, and a webcam input integrated visualisation through use of p5's FFT functio
 
 ### Technologies Used
 
-**JavaScript, p5**
+**JavaScript • p5.js**
 
 ---
 
@@ -82,7 +82,7 @@ A collaborative group project to develop a responsive room booking web applicati
 
 ### Technologies Used
 
-**JavaScript, HTML, CSS, Node/Express, MySQL**
+**JavaScript • Node/Express • MySQL • HTML • CSS**
 
 ---
 
