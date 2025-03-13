@@ -19,21 +19,25 @@ and audio libraries to provide a gamified environment for electric guitarists to
 
 ### Features
 
-A practical and minimalist GUI with aesthetic CSS styling was built using PyQt5.
+- The user can select a local audio file to add to their library, which will initiate guitar separation
+through use of the [6-stem HT Demucs MSS model](https://github.com/adefossez/demucs), followed by pitch
+detection of the song's guitar track using [Spotify's Basic Pitch library](https://github.com/spotify/basic-pitch).
 
-Guitar separation of a song is done through use of the 6-stem HT Demucs MSS model, while Spotify's Basic
-Pitch library is implemented to predict note events in both the user's guitar input and the song's guitar
-track.
+- A scoring algorithm compares the user and guitar tracks' predicted note event information during playback
+to determine a performance score and note accuracy rate that is updated and displayed in real-time.
 
-A scoring algorithm compares predicted pitch information between the user and song's guitar to determine
-a performance score and note accuracy rate that is displayed in real-time.
+- A responsive and user-friendly GUI with aesthetic CSS styling was built using PyQt5.
 
-Gameplay modes include: a practice mode with audio playback controls to facilitate song learning,
-and a playthrough mode that saves a user's final score to be displayed in the song library menu.
+- Separating processes through QThreads and the threading module allows the application to handle
+sounddevice I/O audio streaming, real-time scoring in an audio recording and processing loop, and the GUI
+concurrently with minimal latency and no blocking/freezing.
+
+- The practice mode provides helpful audio playback controls such as looping, a guitar track volume slider,
+a play/pause button, a custom-made interactable waveform that updates the song playhead position, and more.
 
 ### Technologies Used
 
-**Python • PyQt5 • NumPy • Pandas • Librosa**
+**Python • PyQt5 • NumPy • Pandas • Librosa • CSS**
 
 ---
 
@@ -41,9 +45,9 @@ and a playthrough mode that saves a user's final score to be displayed in the so
 
 ### Overview
 
-A web development project that showcased fullstack development skills, producing a prototype for a 
-fitness-themed social media platform with Strava API integration and functionality for following users,
-posting activities, liking, commenting, and more.
+A web development project that showcased full-stack development skills, producing a prototype for a 
+fitness-themed social media platform with Strava API integration and functionality for posting activities,
+following users, liking, commenting, and more.
 
 ### Technologies Used
 
