@@ -44,24 +44,23 @@ section looping with user-set markers, and more.
 
 ### Overview
 
-A web development project that showcased full-stack development skills, producing a prototype for a 
+A web development project showcasing full-stack development skills: produced a prototype for a 
 fitness-themed social media platform with Strava API integration and functionality for posting activities,
 following users, liking, commenting, and more.
 
 ### Features
 
 - Integration with Strava API allows a user to connect their Fitter and Strava accounts through OAuth 2.0,
-providing access to their recent activities. An activity can optionally be linked to a post, "embedding"
-relevant exercise data in the post's body, allowing a user to share their performance with others.
+providing access to their recent activities. An activity can optionally be linked to any post, "embedding"
+relevant exercise data in the post's body, allowing a user to easily share their performance with others.
 
-- CSS styling creates an aesthetic, consistent, and intuitive user experience for the web app. A sidebar
-provides easy navigation to important pages such as the user's profile, their likes, and the home page.
-A sticky header displays a search bar and a dropdown menu relating to user functionality such as connecting
-to Strava or logging out.
+- CSS styling creates a consistent aesthetic and intuitive user experience for the web app: a sidebar
+provides easy navigation to important pages such as the user's profile, their likes, and the home page;
+a sticky header displays a search bar and a dropdown menu of helpful quick actions.
 
 - SQL queries in the Express middleware call Stored Procedures that are performed internally by the database.
-This gives: efficiency, as operations are faster; readability, as queries don’t need to be chained in the
-middleware; better separation of concerns between the application and data tiers.
+This gives better efficiency, as operations are faster, and readability, as queries don’t need to be chained in the
+middleware.
 
 - Security and data integrity: All forms are validated and sanitised using express-validator to prevent
 XSS attacks, all SQL queries are parameterised to avoid injection attacks, users' passwords are encrypted
@@ -77,18 +76,22 @@ and hash salted with bcrypt.
 
 ### Overview
 
-A proof of concept built using the p5.js library that features a keyboard-controlled
-rhythm game, a karaoke game using microphone input, and a music player providing
-audio playback controls and various visualisers to select from.
+A proof-of-concept app built with the p5.js library: features a keyboard-controlled
+rhythm game, a karaoke game using microphone input, and a music player with playback
+controls and visualisers thanks to p5's FFT functions.
 
 ### Features
 
-The rhythm game features procedural real-time note generation synchronised to the song's tempo,
+- The rhythm game features procedural real-time note generation synchronised to the song's tempo,
 an in-depth scoring system, difficulty options that adjust note spawn rates, and 3D graphics
 rendering of game environment.
 
-The music player showcases various visualisations, audio playback controls, a clickable progress
-bar, and a webcam input integrated visualisation through use of p5's FFT functions.
+- The karaoke game implements a pre-trained machine learning model for pitch detection; it provides
+a pitch accuracy-based scoring system, timed lyrics display, and a fun webcam mode.
+
+- The music player provides various animated visuals to choose from as well as:
+multiple audio playback controls (play/pause, skip, song speed, etc.), a clickable song progress bar,
+and a volume bar.
 
 ### Technologies Used
 
