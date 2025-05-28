@@ -1,12 +1,12 @@
 # I'm Spike!
 - 🎓 Third-year Computer Science Undergrad @ Goldsmiths, University of London
 
-- 💭 I'm interested in Software Engineering and have a passion for Machine Learning and Data Mining
+- 💭 I'm interested in Software Engineering and have a passion for Machine Learning and Data Science
 
 - 🎯 My skills include: Python, Tensorflow, Scikit-learn, JavaScript, Node/Express, Java, OOP
 
-- 🪛 I'm currently working on an electric guitar "rhythm game" that leverages pre-trained ML models for
-guitar separation and pitch detection to help users learn to play their favourite songs
+- 🪛 I'm currently working on a guitar practice tool that leverages pre-trained ML models for
+guitar separation and automatic music transcription to help users learn to play their favourite songs by ear!
 
 # Projects
 
@@ -14,32 +14,29 @@ guitar separation and pitch detection to help users learn to play their favourit
 
 ### Overview
 
-A standalone Python application, this software implements open-source pre-trained Machine Learning models
-and audio libraries to provide a gamified environment for electric guitarists to learn to play new songs.
+A standalone gamified guitar practice application for Windows: built in Python and incorporating
+pre-trained machine learning models for MSS and AMT, a GUI framework, and libraries for audio streaming and data processing.
 
 ### Features
 
-- The user can select a local audio file to add to their library, initiating guitar separation
-through use of the [6-stem HT Demucs MSS model](https://github.com/adefossez/demucs), followed by pitch
-detection of the song's separated guitar track using [Spotify's Basic Pitch library](https://github.com/spotify/basic-pitch).
+- Select any local audio file to perform, initiating guitar separation through use of the [6-stem HT Demucs MSS model](https://github.com/adefossez/demucs),
+followed by pitch and onset detection of the song's separated guitar track using [Spotify's Basic Pitch library](https://github.com/spotify/basic-pitch).
 
-- A scoring algorithm compares the user input and guitar tracks' predicted note event information during playback
-to determine a performance score and note accuracy rate that is updated and displayed in real-time.
+- A scoring algorithm compares the user input and guitar tracks' predicted note events during playback
+to display a real-time note accuracy rate, performance score, and swing display (indicating rushing or dragging).
 
-- A practical and responsive GUI with aesthetic CSS styling was built using PyQt5, allowing the user to easily
-navigate between the song library, practice mode, playthrough mode, and help menu.
+- A responsive, easy-to-use GUI with aesthetic minimalist CSS styling was built with the PyQt6 framework.
 
-- Separating processes through QThreads and the threading module allows the application to handle
-sounddevice I/O audio streaming, real-time scoring in an audio recording and processing loop, and the GUI
-concurrently with minimal latency and no blocking/freezing.
+- Using separate processes with Python's concurrent.futures module allows the application to handle audio playback manipulation,
+real-time scoring in an audio recording and processing loop, and updating the GUI concurrently with no blocking or freezing.
 
-- The practice mode provides helpful audio playback controls such as: a guitar track volume slider,
-a play/pause button, a custom-made interactable waveform that provides functionality for seeking and section
-looping with user-set markers, etc.
+- The practice mode provides helpful playback controls such as: a guitar track volume slider,
+a play/pause button, a custom-made interactive waveform and playhead that allows seeking,
+section looping with user-set markers, and more.
 
 ### Technologies Used
 
-**Python • PyQt5 • NumPy • Pandas • Librosa • CSS**
+**Python • PyQt6 • NumPy • Pandas • Librosa • sounddevice**
 
 ---
 
