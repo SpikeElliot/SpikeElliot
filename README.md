@@ -12,6 +12,10 @@ guitar separation and automatic music transcription to help users learn to play 
 
 ## [🎸 Guitaraoke](https://github.com/SpikeElliot/Guitaraoke)
 
+<a href="https://github.com/SpikeElliot/Guitaraoke">
+  <img alt="An image of Guitaraoke's splash screen" src="https://github.com/user-attachments/assets/e37c0968-8779-45c9-87a7-12c687d8b53e" width=100%">
+</a>
+
 ### Overview
 
 A standalone gamified guitar practice application for Windows: built in Python and incorporating
@@ -41,6 +45,10 @@ section looping with user-set markers, and more.
 ---
 
 ## [🏃 Fitter](https://github.com/SpikeElliot/Fitter)
+
+<a href="https://github.com/SpikeElliot/Fitter">
+  <img alt="A screenshot of Fitter's home page" src="https://github.com/user-attachments/assets/dded6c4a-cfec-4983-a69c-833a72538ea4" width=100%>
+</a>
 
 ### Overview
 
@@ -73,6 +81,10 @@ and hash salted with bcrypt.
 ---
 
 ## [🎵 Karaoke and Rhythm Game](https://github.com/sahas036211/p5-Karaoke-and-Rhythm-Game)
+
+<a href="https://github.com/sahas036211/p5-Karaoke-and-Rhythm-Game">
+  <img alt="A screenshot of the application's rhythm game" src="https://github.com/user-attachments/assets/04288dd0-1f28-4f4c-a40a-bc2a8fbc72d8" width=100%>
+</a>
 
 ### Overview
 
