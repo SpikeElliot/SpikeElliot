@@ -1,11 +1,11 @@
 # I'm Spike!
-- 🎓 Third-year Computer Science Undergrad @ Goldsmiths, University of London
+- 🎓 Recently graduted from Goldsmiths, UoL with a First-Class Honours in Computer Science
 
-- 💭 I'm interested in Software Engineering and have a passion for Machine Learning and Data Science
+- 💭 I'm an aspiring machine learning engineer with a passion for data science!
 
-- 🎯 My skills include: Python, Tensorflow, Scikit-learn, JavaScript, Node/Express, Java, OOP
+- 🎯 My skills include: Python, TensorFlow, Scikit-Learn, JavaScript, Node/Express 
 
-- 🪛 I'm currently working on a guitar practice tool that leverages pre-trained ML models for
+- 🪛 My final project was a guitar practice tool that leverages pre-trained ML models for
 guitar separation and automatic music transcription to help users learn to play their favourite songs by ear!
 
 # Projects
@@ -108,31 +108,6 @@ and a volume bar.
 ### Technologies Used
 
 **JavaScript • p5.js**
-
----
-
-## [🧑‍🏫 Bookit: Room Booking Application](https://github.com/jbrun001/roombooking)
-
-### Overview
-
-A collaborative group project to develop a responsive room booking web application for a university.
-
-### Technologies Used
-
-**JavaScript • Node/Express • MySQL • HTML • CSS**
-
----
-
-## [🇭 Hangman Game](https://github.com/SpikeElliot/Java-Hangman-Game)
-
-### Overview 
-
-An endless hangman game with a simple score system designed as a small test application to demonstrate 
-proficiency with Java Swing. 
-
-### Technologies Used
-
-**Java**
 
 <!--
 
