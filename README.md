@@ -18,7 +18,7 @@
 A novel guitar practice application for Windows, built with PyQt6: leverages **pre-trained convolutional models** for music source separation 
 and automatic music transcription to provide guitarists with gamified, karaoke-style performance scoring _in real time_.
 
-### Details
+### Project Details
 
 - Select _any_ local audio file to perform, initiating guitar separation through use of the [6-stem HT Demucs MSS model](https://github.com/adefossez/demucs),
 followed by pitch and onset detection of the song's separated guitar track using [Spotify's Basic Pitch library](https://github.com/spotify/basic-pitch).
@@ -46,7 +46,7 @@ real-time scoring in an audio recording and processing loop, and updating the GU
 A prototype fitness-themed social media platform with Strava API integration and functionality for posting activities,
 following users, liking, commenting, and more.
 
-### Details
+### Project Details
 
 - **Integration with Strava API**: allows a user to access their recent activities by connecting their Fitter and
 Strava accounts through OAuth 2.0. An activity can be optionally "embedded" into a post, rendering relevant exercise
@@ -76,7 +76,7 @@ A POC application built with the _p5.js_ library in collaboration with [sahas036
 features a rhythm game with keyboard controls, a karaoke game using microphone input, and a music player with playback
 controls and visualisers.
 
-### Details
+### Project Details
 
 - **Rhythm game**: procedural real-time note generation _synchronised to the song's tempo_, a scoring system based on user accuracy and timing,
 **difficulty options** that modify note spawn rate, and 3D graphics rendering of game environment.
