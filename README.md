@@ -1,10 +1,3 @@
-# Spike is...
-- **A First Class Honours Computer Science graduate** from Goldsmiths, UoL with a final average of 86%
-- **In love with the field of machine learning**: currently reading François Chollet's _DLWP 3rd Edition_, completing ML courses, tackling Kaggle datasets, joining an MSc programme next year
-- **Proficient in ML frameworks** such as Scikit-Learn, Keras, and TensorFlow
-- **A hobby full-stack developer**: currently building a MERN stack personal journal web application
-- **A reader, runner, gym-goer, lifelong learner, caffeine addict, guitarist, and [djent](https://en.wikipedia.org/wiki/Djent) enthusiast**
-
 # Projects
 
 ## [Guitaraoke](https://github.com/SpikeElliot/Guitaraoke)
